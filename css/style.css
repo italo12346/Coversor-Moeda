@@ -11,17 +11,28 @@ h2{
 }
 
 .container{
-    background-color: antiquewhite;
-    width: 90vw;
-    height: 100vh;
-    margin: auto;
+    background: url('../img/fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
 }
 
 .conversor{
     display: grid;
     justify-content: center;
+    grid-template-columns: 1f 1fr 1fr;
+}
 
+.conversor #entrada-user{ border: none; border-bottom: 1px solid white; padding: 5px; background: none; color: white; outline: none; margin-left: 15px; }
+
+.resultados{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.resultados>img{
+    width: 6rem;
+    padding: 1rem;
 }
