@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+.container{
+    background-color: antiquewhite;
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.conversor{
+    display: grid;
+    justify-content: center;
+
+}
