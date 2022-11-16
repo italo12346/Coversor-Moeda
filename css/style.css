@@ -8,16 +8,33 @@
 
 h2{
     font-size: 5rem;
+    margin-left: 10rem;
+    height: 6rem;
+}
+
+img{
+    width: 6rem;
+    padding: 1rem;
+}
+span{
+    font-size: 2rem;
 }
 body{
     background: url('../img/fundo.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    margin: auto;
 }
+
 .container{
     color: #fff;
+    font-weight: bold;
     display: grid;
     justify-content: center;
+
+}
+.conversor{
+    margin-top: 10rem;
 }
 .conversor #entrada-user{ 
     border: none;
@@ -27,22 +44,22 @@ body{
     background: none;
     color: white; 
     outline: none;
-    margin-left: 15px; 
+    margin-left: 1.5rem; 
 }
 
 button{
-    padding: 10px;
-    border-radius: 7px;
+    padding: 1rem;
+    border-radius: 0.5rem;
     border: none;
     color: white;
-    margin-left: 15px;
+    margin-left: 1.5rem;
     cursor: pointer;
     background: none;
     border: 2px solid #696969;
 } 
 button:hover{
-     background-color: #d4af37;
-      box-shadow: 1px 1px 1px 2px black;
+    background-color: #d4af37;
+    box-shadow: 1px 1px 1px 2px black;
 } 
 
 #exclusao{
@@ -53,7 +70,16 @@ button:hover{
     display: flex;
     flex: 1;
 }
-.resultados>img{
-    width: 6rem;
-    padding: 1rem;
+.titulo{ display: flex; 
+    align-items: center; 
 }
+
+.div-dolar, .div-euro, .div-iene{
+    border-radius: 1rem; 
+    box-shadow: 1px 1px 1px 1px black;
+
+} 
+.dolar-conteudo, .euro-conteudo, 
+.iene-conteudo{
+     padding: 10px; 
+} 
