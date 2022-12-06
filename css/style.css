@@ -35,7 +35,11 @@ body{
 }
 .conversor{
     margin-top: 10rem;
+    background-color: rgba(0, 0, 0, 0.336);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 5rem;
 }
+
 .conversor #entrada-user{ 
     border: none;
     border-bottom: 1px solid white;
@@ -45,6 +49,9 @@ body{
     color: white; 
     outline: none;
     margin-left: 1.5rem; 
+}
+#entrada-user::placeholder{
+    color: white;
 }
 
 button{
@@ -69,23 +76,22 @@ button:hover{
 .resultados{
     display: flex;
     flex: 1;
+    justify-content: space-between;
+    padding-top: 1rem;
 }
 .titulo{ 
     display: flex; 
     align-items: center;
-    grid-area: "title";
+    padding-right: 0.5rem;
 }
 
-.div-dolar, .div-euro, .div-iene{
-    grid-area: "conteudo";
-    border-radius: 1rem; 
-    box-shadow: 1px 1px 1px 1px black;
 
-} 
 .dolar-conteudo, .euro-conteudo, 
 .iene-conteudo{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
     padding: 10px; 
-    display: grid;
-    grid-template-areas:
-        "title" "conteudo";
+    
 } 

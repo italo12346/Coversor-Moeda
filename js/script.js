@@ -12,9 +12,9 @@ function converterValor(){
 }
 function apagarValor(){
      document.getElementById('entrada-user').value = "";
-     document.querySelector('euro-conteudo').setAttribute("class","laranja");
-     document.getElementById('valor-euro').value =" " ;
-     document.getElementById('valor-iene').value =" " ;
+     document.getElementById('valor-dolar').innerHTML = "";
+     document.getElementById('valor-euro').innerHTML = "";
+     document.getElementById('valor-iene').innerHTML = ""; 
      
 } 
 
