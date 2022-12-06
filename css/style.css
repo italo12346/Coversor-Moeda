@@ -70,16 +70,22 @@ button:hover{
     display: flex;
     flex: 1;
 }
-.titulo{ display: flex; 
-    align-items: center; 
+.titulo{ 
+    display: flex; 
+    align-items: center;
+    grid-area: "title";
 }
 
 .div-dolar, .div-euro, .div-iene{
+    grid-area: "conteudo";
     border-radius: 1rem; 
     box-shadow: 1px 1px 1px 1px black;
 
 } 
 .dolar-conteudo, .euro-conteudo, 
 .iene-conteudo{
-     padding: 10px; 
+    padding: 10px; 
+    display: grid;
+    grid-template-areas:
+        "title" "conteudo";
 } 
