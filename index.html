@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="Pt-Br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,39 +9,43 @@
     <script defer src="./js/script.js"></script>
     <title>Conversor</title>
 </head>
+
 <body>
     <div class="container">
         <div class="conversor">
-            <h2>Conversor</h2>
-            <span>Digite o valor em R$ </span>
-            <input type="number" name="" id="entrada-user" placeholder="Digite aqui"> 
-            <button id="conversao" onclick="converterValor()">Converter</button> 
-            <button id="exclusao" onclick="apagarValor()">x</button>
+            <div class="titulo">
+                <h2>Conversor</h2>
+                <span>Digite o valor em R$ </span>
+                <input type="number" name="" id="entrada-user" placeholder="Digite aqui">
+                <button id="conversao" onclick="converterValor()">Converter</button>
+                <button id="exclusao" onclick="apagarValor()">x</button>
+            </div>
             <div class="resultados">
                 <div class="dolar-conteudo">
-                     <div class="titulo">
-                        <img src="./img/moeda-removebg-preview.png"  class="dolar" alt="Dolar">
-                    <span>Dólar:</span>
-                </div> 
-                <h3 id="valor-dolar"></h3> 
+                    <img src="./img/moeda-removebg-preview.png" class="dolar" alt="Dolar">
+                    <div class="titulo">
+                        <span>Dólar:</span>
+                    </div>
+                    <h3 id="valor-dolar"> </h3>
+                </div>
+                <div class="euro-conteudo">
+                    <img src="./img/moeda-removebg-preview.png" class="euro" alt="Euro">
+                    <div class="titulo">
+                        <span>Euro:</span>
+                    </div>
+                    <h3 id="valor-euro"></h3>
+                </div>
+                <div class="iene-conteudo">
+                    <img src="./img/moeda-removebg-preview.png" class="iene" alt="Iene">
+                    <div class="titulo">
+                        <span>Iene:</span>
+                    </div>
+                    <h3 id="valor-iene"> </h3>
+                </div>
             </div>
-            <div class="euro-conteudo">
-                <div class="titulo">
-                    <img src="./img/moeda-removebg-preview.png"  class="euro" alt="Euro">
-               <span>Euro:</span>
-           </div> 
-           <h3 id="valor-euro"></h3> 
-       </div>
-       <div class="iene-conteudo">
-        <div class="titulo">
-            <img src="./img/moeda-removebg-preview.png"  class="iene" alt="Iene">
-       <span>Iene:</span>
-   </div> 
-   <h3 id="valor-iene"></h3> 
-</div>                                    
-           </div>
 
         </div>
     </div>
 </body>
+
 </html>
